@@ -1,17 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
 } from "./components/ui/resizeable";
 import { CodeEditor } from "./components/CodeEditor";
-import { Debugger } from "./components/Debugger";
 import { FileTree } from "./components/FileTree";
 import { StatusBar } from "./components/StatusBar";
 import { TabBar } from "./components/TabBar";
 import { Terminal } from "./components/Terminal";
 import { TopBar } from "./components/TopBar";
-import { VersionControl } from "./components/VersionControl";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { Browser } from "./components/Browser";
 
