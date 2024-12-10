@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 import { Editor } from "@monaco-editor/react";
 
 interface CodeEditorProps {
@@ -8,11 +8,11 @@ interface CodeEditorProps {
 }
 
 export function CodeEditor({
-  fileName,
+  // fileName,
   content,
   onContentChange,
 }: CodeEditorProps) {
-  const editorRef = useRef(null);
+  // const editorRef = useRef(null);
 
   return (
     <div className="w-full h-full">
